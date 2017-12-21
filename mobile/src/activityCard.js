@@ -9,7 +9,7 @@ export default function activityCard(WrappedComponent, defaultPayload, defaultFr
       if (!frame) frame = { height: 150, width: 300, ...defaultFrame }
       if (!payload) payload = defaultPayload || {}
       return client._b.isEmulated
-        ? <View style={{paddingTop:50, backgroundColor: '#ddd'}}><WrappedComponent frame={frame} payload={payload} /></View>
+        ? <View style={{paddingTop:0, backgroundColor: '#ddd'}}><WrappedComponent frame={frame} payload={payload} /></View>
         : <WrappedComponent frame={frame} payload={payload} />
     }
   }

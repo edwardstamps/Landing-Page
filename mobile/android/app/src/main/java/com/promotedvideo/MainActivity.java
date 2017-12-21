@@ -1,4 +1,4 @@
-package com.promotedvideo;
+package com.PromotedVideo;
 
 import com.facebook.react.ReactActivity;
 
